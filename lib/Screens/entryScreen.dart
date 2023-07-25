@@ -47,10 +47,10 @@ class _EntryScreenState extends State<EntryScreen> {
         },
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home),label: "Home"),
-          BottomNavigationBarItem(icon: Icon(Icons.search),label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.search),label: "Search"),
           BottomNavigationBarItem(icon: Icon(Icons.add_circle,color: Color(0xffff4d67),size: 40,),label: ""),
-          BottomNavigationBarItem(icon: Icon(Icons.play_circle),label: "Home"),
-          BottomNavigationBarItem(icon: Icon(Icons.person),label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.play_circle),label: "Play"),
+          BottomNavigationBarItem(icon: Icon(Icons.person),label: "Person"),
         ],
       ),
     );
